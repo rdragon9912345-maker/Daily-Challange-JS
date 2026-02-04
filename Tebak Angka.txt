@@ -1,0 +1,20 @@
+Tebak Angka
+
+========================================
+
+Saat program dijalankan, komputer memilih angka random
+ditampilkan di console.log sebagai referensi
+
+=> pakai math.random
+
+UI
+- Input box (untuk input angka)
+- Button tebak dan Main lagi
+- Gambar nyawa
+
+Logika
+- Jika tebakan < angka, muncul teks "Kekecilan! coba lagi>" lalu nyawa berkurang 1
+- Jika tebakan > angka, muncul teks "kegedean! coba lagi>" lalu
+ nyawa berkurang 1
+- jika tebakan = angka, muncul "Benar! Angkanya X." muncul tombol Main Lagi dan tombol tebak mati
+- Nyawa ada 5, jika salah semua maka game over dan tampilkan angka yang benar serta mulai lagi
