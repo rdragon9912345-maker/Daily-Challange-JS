@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasir Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <select name="barang" id="barang">
+      <option value="susu">susu</option>
+      <option value="roti">roti</option>
+      <option value="telur">telur</option>
+    </select>
+    <input type="number" id="qty" />
+    <button id="btnIn">Masukan Data</button>
+
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Harga</th>
+          <th>Jumlah</th>
+          <th>Harga per Item</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+      <tr>
+        <th>total :</th>
+        <th id="total-harga"></th>
+      </tr>
+      <tfoot id="tfoot"></tfoot>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>

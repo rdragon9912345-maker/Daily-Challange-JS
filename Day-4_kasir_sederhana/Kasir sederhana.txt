@@ -1,0 +1,24 @@
+Kasir sederhana
+=============================================
+
+Buat objeknya nama dan harga
+
+input user
+- user memilih barang pada select
+- terus pencet button buat milih barang tersebut
+- barang yang terpilih bakal muncul ditabel
+
+
+logika diskon
+jika total harga > 50.000 => diskon 10%
+
+
+isi tabel
+nama, harga, qty, harga per barang
+subtotal, diskon, total bayar 
+
+=============================================
+
+susu : 10.000
+roti : 5.000
+Telur : 2.000
